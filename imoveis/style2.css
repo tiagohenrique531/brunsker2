@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header {
+    
+    
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+header li:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    font-family: poppins;
+    color: white;
+    width: 100%;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header ul li {
+    text-align: center;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+}
